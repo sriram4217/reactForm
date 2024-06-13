@@ -44,7 +44,7 @@ function Form() {
 
   return (
     <div>
-      <h1>{count}</h1>
+      <h1>render-{count}</h1>
       {user && <h1>Hello {user}</h1>}
       <form onSubmit={handleSubmit(onSubmit)} noValidate>
         <div>
