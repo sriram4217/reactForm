@@ -1,0 +1,34 @@
+export const students=[
+    {
+        name:'s1',
+        marks:88
+    },
+    {
+        name:'s2',
+        marks:98
+    },
+    {
+        name:'s3',
+        marks:78
+    },
+    {
+        name:'s4',
+        marks:95
+    },
+    {
+        name:'s5',
+        marks:90
+    }
+   ]
+export const players=[
+   {
+    name:'Sachin',
+    runs:20000,
+    loc:'Mumbai'
+   },
+   {
+    name:'Dhoni',
+    runs:10000,
+    loc:'Ranchi'
+   }
+   ]
