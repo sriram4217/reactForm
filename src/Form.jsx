@@ -18,13 +18,14 @@ function Form() {
     },
   });
 
-  const { errors, isDirty, isValid, touchedFields } = formState;
+  const { errors, isDirty, isValid, touchedFields ,dirtyFields} = formState;
+
 
   const { fields, append, remove } = useFieldArray({
     name: "phoneNumbers",
     control,
   });
-
+console.log(touchedFields,dirtyFields)
   count++;
 
   useEffect(() => {
